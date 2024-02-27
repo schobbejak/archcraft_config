@@ -78,7 +78,7 @@ plank_hmode='intelligent'
 plank_offset='0'
 plank_position='bottom'
 plank_theme='Transparent'
-plank_icon_size='32'
+plank_icon_size='40'
 plank_zoom_percent='120'
 
 # Picom
