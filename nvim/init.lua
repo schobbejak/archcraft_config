@@ -37,3 +37,11 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+-- Tabs
+vim.opt.tabstop = 4 
+vim.opt.expandtab = true
+vim.opt.shiftwidth = 4
+
+-- Folding
+set foldmethod=syntax
