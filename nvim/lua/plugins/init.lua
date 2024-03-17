@@ -12,4 +12,14 @@ return {
       git = { enable = true },
     },
   },
+
+  {
+    'kevinhwang91/nvim-ufo',
+    requires= 'kevinhwang91/promise-async'
+  },
+
+  {
+    'wakatime/vim-wakatime',
+    lazy = false
+  }
 }
