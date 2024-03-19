@@ -13,3 +13,7 @@ dap.configurations.cpp = lldb.config
 dap.configurations.rust = lldb.config
 
 local debugpy = require("configs.dap.adapters.debugpy")
+
+dap.adapters.debugpy = debugpy.adapter
+
+dap.configurations.python = debugpy.config
