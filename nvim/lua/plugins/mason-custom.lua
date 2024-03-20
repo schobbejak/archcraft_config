@@ -4,6 +4,7 @@ return {
     opts = {
       ensure_installed = {
         "python-lsp-server",
+        "lua-language-server",
       }
     }
   }
