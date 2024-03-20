@@ -6,6 +6,7 @@ return {
         "pylsp",
         "lua-language-server",
         "black",
+        "debugpy",
       }
     }
   },
