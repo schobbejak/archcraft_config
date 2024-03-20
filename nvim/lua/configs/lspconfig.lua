@@ -10,12 +10,23 @@ lspconfig["pylsp"].setup({
   on_attach = on_attach,
   on_init = on_init,
   capabilities = capabilities,
-  filetypes = {"python"}
+  filetypes = {"python"},
+  settings = {
+    pylsp = {
+      configurationSources = {"flake8"},
+      plugins = {
+        pycodestyle = {
+          enabled = true,
+          maxLineLength = 175
+        }
+      }
+    }
+  },
 })
 
-lspconfig["lua-language-server"].setup({
+--[[ lspconfig["lua-language-server"].setup({ 
   on_attach = on_attach,
   on_init = on_init,
   capabilities = capabilities
-})
+}) ]]
 
