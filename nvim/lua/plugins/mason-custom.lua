@@ -5,6 +5,7 @@ return {
       ensure_installed = {
         "pylsp",
         "lua-language-server",
+        "black",
       }
     }
   },
