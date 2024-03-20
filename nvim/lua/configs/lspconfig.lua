@@ -3,10 +3,10 @@ local on_init = require("nvchad.configs.lspconfig").on_init
 local capabilities = require("nvchad.configs.lspconfig").capabilities
 
 local lspconfig = require "lspconfig"
-local servers = { "python-lsp-server", "lua-language-server" }
+local servers = { "pylsp", "lua-language-server" }
 
 -- lsps with default config
-lspconfig["python-lsp-server"].setup({
+lspconfig["pylsp"].setup({
   on_attach = on_attach,
   on_init = on_init,
   capabilities = capabilities,
