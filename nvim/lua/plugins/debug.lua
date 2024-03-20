@@ -8,6 +8,7 @@ return {
           vim.keymap.set("n", "<leader>bj", ":DapStepOver<CR>")
           vim.keymap.set("n", "<leader>bh", ":DapStepOut<CR>")
           vim.keymap.set("n", "<leader>bz", ":ZoomWinTabToggle<CR>")
+          vim.keymap.set("n", "<leader>bb", ":DapToggleBreakpoint<CR>")
           vim.keymap.set(
               "n",
               "<leader>bgt",  -- dg as in debu[g] [t]race
