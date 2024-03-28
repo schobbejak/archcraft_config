@@ -19,5 +19,5 @@ opt.foldlevel = 99
 -- Upon editing a buffer what level of folds should be open by default
 opt.foldlevelstart = 1
 
--- Limits how deelp code gets folded
-opt.foldnestmax = 4
+-- Limits how deep code gets folded
+opt.foldnestmax = 2
