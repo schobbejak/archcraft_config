@@ -9,6 +9,7 @@ return {
 
         -- python
         "python",
+        "cpp",
       }
     }
   }

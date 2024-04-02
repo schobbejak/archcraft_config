@@ -24,6 +24,13 @@ lspconfig["pylsp"].setup({
   },
 })
 
+lspconfig["clangd"].setup({
+  on_attach = on_attach,
+  on_init = on_init,
+  capabilities = capabilities,
+  filetypes = {"cpp"},
+})
+
 --[[ lspconfig["lua-language-server"].setup({ 
   on_attach = on_attach,
   on_init = on_init,

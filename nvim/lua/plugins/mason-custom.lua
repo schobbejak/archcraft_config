@@ -7,6 +7,7 @@ return {
         "lua-language-server",
         "black",
         "debugpy",
+        "clangd",
       }
     }
   },
