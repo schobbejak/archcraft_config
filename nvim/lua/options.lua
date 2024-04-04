@@ -21,3 +21,8 @@ opt.foldlevelstart = 1
 
 -- Limits how deep code gets folded
 opt.foldnestmax = 2
+
+-- Tabs
+opt.tabstop = 4
+opt.expandtab = true
+opt.shiftwidth = 4

@@ -8,6 +8,7 @@ return {
         "black",
         "debugpy",
         "clangd",
+        "clang-format",
       }
     }
   },
